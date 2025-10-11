@@ -12,12 +12,12 @@ This is a command-line interface (CLI) weather application that fetches and disp
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/weather-cli-app.git
+   git clone https://github.com/Mazen050/task1.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd weather-cli-app
+   cd Task1
    ```
 
 3. Install the required dependencies:
@@ -27,7 +27,7 @@ This is a command-line interface (CLI) weather application that fetches and disp
 
 4. Add your WeatherAPI key to a `.env` file:
    ```
-   WEATHER_API_KEY="your_actual_api_key"
+   WEATHER_API_KEY="your_api_key"
    ```
 
 ## Usage
@@ -47,7 +47,3 @@ Follow the prompt to enter the city name for which you want to fetch the weather
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
