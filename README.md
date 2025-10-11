@@ -1,12 +1,12 @@
 # Weather CLI Application
 
-This is a command-line interface (CLI) weather application that allows users to fetch and display weather information for a specified location.
+This is a command-line interface (CLI) weather application that fetches and displays current weather information for a specified city using [weatherapi.com](https://www.weatherapi.com/).
 
 ## Features
 
-- Fetch current weather data from a weather API.
+- Fetch current weather data from WeatherAPI.
 - Display weather information in a user-friendly format.
-- Simple command-line interface for easy use.
+- Simple command-line interface.
 
 ## Installation
 
@@ -25,18 +25,24 @@ This is a command-line interface (CLI) weather application that allows users to 
    pip install -r requirements.txt
    ```
 
+4. Add your WeatherAPI key to a `.env` file:
+   ```
+   WEATHER_API_KEY="your_actual_api_key"
+   ```
+
 ## Usage
 
 To run the application, use the following command:
 ```
-python src/main.py
+python main.py
 ```
 
-Follow the prompts to enter the location for which you want to fetch the weather information.
+Follow the prompt to enter the city name for which you want to fetch the weather information.
 
 ## Dependencies
 
 - requests: For making HTTP requests to the weather API.
+- python-dotenv: For loading environment variables from `.env` file.
 
 ## Contributing
 
