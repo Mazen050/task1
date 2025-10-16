@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
-# github action
+# github actionh
 
 load_dotenv()
 
