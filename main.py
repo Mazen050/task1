@@ -2,6 +2,8 @@ import requests
 from dotenv import load_dotenv
 import os
 
+# github action
+
 load_dotenv()
 
 def get_weather(city):
